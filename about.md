@@ -5,15 +5,11 @@ title: About
 
 # About EarthSkyLab Vision
 
-*	This idea has been 2 years of thinking, research behind it
-*	looking to take best practices from around the world, looking at different cultures, communities, traditions
-*	We are going to fill out details in blog entries - we are
-*	This is just the start, the skeleton of an idea, let's build it up together!
-* We are looking for collaborators
-* A new Model for a 21st century community
-* We are looking to build a community and a model
-* EarthSkyLab in every region
-* Start one yourself!
+The idea behind EarthSkyLab Vision has been two years in development, thinking, researching. We have researched best practices from around the world, cultures, communities and traditions.
+
+This site is the seed of our dream, we invite you to cultivate it together with us. Let's imagine the future together!
+
+EarthSkyLab is intended as new open model for a 21st century community. An idea shared freely across the world, forked, re-mixed and implemented in every part of the Earth!
 
 # Get involved!
 
@@ -27,7 +23,9 @@ In 2016 we will organise an EarthSkyLab Summit 2016 will be organized in a locat
 
 And of course get in touch if you are considering joining EarthSkyLab and moving to the land.
 
-## CALL FOR BLOG CONTRIBUTION - share your knowledge and thoughts. 
+## CALL FOR BLOG CONTRIBUTION
+
+Please share your knowledge and thoughts - be part of the book of EarthSkyLab! We are looking forward to hearing your thoughts about the questions and ideas of EarthSkyLab. Blog is the place to elucidate the dream by bringing together creative intelligence of many people interested in new comunity models.
 
 ## Village planning working group
 
