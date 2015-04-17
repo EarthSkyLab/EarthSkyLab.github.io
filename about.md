@@ -23,11 +23,11 @@ In 2016 we will organise an EarthSkyLab Summit 2016 will be organized in a locat
 
 And of course get in touch if you are considering joining EarthSkyLab and moving to the land.
 
-## CALL FOR BLOG CONTRIBUTION
+# Call For Blog Contribution
 
 Please share your knowledge and thoughts - be part of the book of EarthSkyLab! We are looking forward to hearing your thoughts about the questions and ideas of EarthSkyLab. Blog is the place to elucidate the dream by bringing together creative intelligence of many people interested in new comunity models.
 
-## Village planning working group
+# Village planning working group
 
 Creating a model concept design for what EarthSkyLab could be laid out as is a fun, exciting and important part of the design process. Of course when we find the land we will need to adjust to it’s particular topography and characteristics, still starting the discussion now on how to position community buildings and houses. Village planning working group aims to answer the following questions:
 
@@ -38,12 +38,12 @@ What spaces can we create for the community to get together?
 What are the spaces we need for discussion, meditation, for festivals and celebration?
 
 
-## Organisation & Business Plan working group
+# Organisation & Business Plan working group
 
 We need a team to create an organisation plan describing clearly the ownership structure, decision making, etc. We need to draft the articles of the constitution for the legal entity. We need to create a model of how  community finances will be handled. We need to create agreements about community service. 
 
 
-## Free-to-learn community working group
+# Free-to-learn community working group
 
 The idea of creating a community which is centered around the free-to-learn principle for both children and adults is perhaps the most novel part of the whole EarthSkyLab Vision. We are looking for help from everyone in the alternative-learning movement to help us develop the details of how to turn vision into reality.
 
