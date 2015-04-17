@@ -5,11 +5,11 @@ tags: celebration
 author: victor
 ---
 
-I am incredibly excited to release this first version of the EarthSkyLab vision document. We have been thinking, researching, brainstorming and discussing this idea together with [Evgenia Emets](/authors/evgenia.html) for as long as we've known each other, 
+I am incredibly excited to publish this first version of the EarthSkyLab vision document. We have been thinking, researching, brainstorming and discussing this idea together with [Evgenia Emets](/authors/evgenia.html) for as long as we've known each other, I've talked about this idea with all of my friends who's ideas and support I am immensely grateful.
 
-Of course what we have written is just a bare beginning, this site is intended as a vessel to be filled with ideas, research and discussion. We are proposing the research questions and a sketch of how 
+Of course what we have written is just a bare beginning, the EarthSkyLab vision is intended as a vessel to be filled with exploration of these ideas, much further research and discussion. We are proposing the questions for how to create a new model for a deeply connected community for the 21st century, we propose a sketch of an idea how to achieve it.
 
-I am very excited to publish this vision as an open model. Starting a community is a huge task, there is so much to consider, plan and agree on thus I think if we want more communities going forward we must publish more 
+I am very excited we are publishing this vision as an open model. Starting a community is a huge task, there is so much to consider, plan and agree on. I think by creating models easy designed to be 
 
 Growing up in a modern apartment block in in socialist Warsaw I experienced the absence of community in modern urban living. I instinctively knew such an environment is not healthy, I felt much better when visiting my father’s small hometown.
 
