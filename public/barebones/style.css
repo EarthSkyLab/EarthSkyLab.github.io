@@ -447,6 +447,7 @@ background: #00abf0;
 }
 
 @media all and (min-width: 1300px){
+	.secondary-content { width: 220px; max-width: 220px;}
     .subcat-posts.show {left: 220px;}
     body .subcat-posts .more-below div{margin-left: 120px;}
 }
