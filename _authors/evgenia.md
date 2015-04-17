@@ -5,4 +5,6 @@ url: http://www.bobsmith.biz/
 facebook: https://www.facebook.com/paz
 ---
 
-# Evgenia is....
+# Evgenia Emets, Poet, Artist, Visionary
+
+Evgenia Emets is a 

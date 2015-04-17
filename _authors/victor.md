@@ -6,7 +6,8 @@ facebook: https://www.facebook.com/21stCenturyShaman/
 linkedin: https://www.linkedin.com/in/vvorski
 ---
 
- 
+# Victor Vorski, Imagineer
+
 He is a generator of ideas and a generous contributor to creative endevours.
  
 His love for Nature, crafts and community and a vision for how a human being can benefit from having these in one's life towards a more connected, open and happier human.

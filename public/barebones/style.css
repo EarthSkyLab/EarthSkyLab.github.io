@@ -839,6 +839,17 @@ h3.esl-site-map {
   background-size:contain;
 
 }
+ 
+.post-info {
+	margin-top: 10px;
+}
+.post-info h1 {
+	float:left;
+}
+.post-info .post-date {
+	float: right;	
+	line-height: 1em;
+}
 
 .esl-vision-statement {
 	font-size: 20px;
