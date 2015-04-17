@@ -1,0 +1,54 @@
+---
+layout: basic-page
+---
+
+     <article role="main" class="primary-content type-post">
+            <div class="wrapper">
+            <header>
+					{% for an_author in site.authors %}
+						{% assign author_id = an_author.path | split:"/" | last | split:"." | first %}
+						{% if author_id == page.author %}
+							{% assign author = an_author %} 
+						{% endif %}
+					{% endfor %}
+		            
+			<div class="post">
+			  <a href="/authors/{{page.author}}.html"><img src="/authors/{{page.author}}.jpg"></a>
+			  <h1 class="post-title">{{ page.title }}</h1>
+			  <span class="post-date">{{ page.date | date_to_string }} by <a href={{author.url}}>{{author.title}}</a></span>
+			  
+			  {% assign post = page %}
+			  {% include post-tag-list.html %}
+
+			  {{ content }}
+			  {% include share-buttons.html %}
+
+	<div class="esl-paging cf">
+			  {% if page.previous %}
+			  	<div class="esl-previous-page"><a href="{{page.previous.url}}"><< {{page.previous.title}}</a></div>
+			  {% endif %}
+			  
+			  {% if page.next %}
+			  	<div class="esl-next-page"><a href="{{page.next.url}}">{{page.next.title}} >></a></div>
+			  {% endif %}
+	</div>
+			  
+
+			</div>
+        </div>
+    </article>
+        
+
+
+    <section class="related-posts">
+        <div class="wrapper">
+            <div class="related-posts">
+                <h3>Related Blogs</h3>
+                <div class="esl-related-posts">
+				{% for post in site.related_posts limit:3 %}
+						{% include related-blog-block.html %}		
+				{% endfor %}
+				</ul>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,89 @@
+---
+layout: basic-page
+---
+<article role="main" class="primary-content type-post">
+    <div class="wrapper">
+    <header>
+	
+		{% assign chapter = "??" %} 
+	
+	    {% assign patharray = page.path | split:"/" %}
+	    {% assign filename = patharray | last  %}
+		{% assign pathlen = patharray | size %}
+		{% if pathlen > 1 %}    		
+			{% assign chapter = patharray[1] %} 
+			{% assign foo = chapter | split: " " %}
+			{% assign chapter_name = foo[1] %} 
+			{% assign chapter_no = foo[0] %} 
+			
+			{% assign menu_name = page.title %}
+
+			{% if pathlen > 3 %}
+				{% assign section = patharray[2] %}
+				{% assign section_name = section | split: " " %}
+				{% assign menu_name = section_name %}		
+
+			{% endif %} 
+			<h2 class="chapter">CHAPTER {{ chapter_no }}: {{ chapter_name }}{% if pathlen > 3 %}: <i>{{ section_name[1] }}</i>{% endif %}</h2>
+						
+			<h2  id='post-category-name' class="hidden">
+				<a href="{{page.url}}">{{ menu_name }}</a>
+			</h2>
+
+		{% endif %}
+		
+		{% if page.noimgtitle %}
+         <h1>{{ page.title }} </h1>
+        {% else %}
+         <img src = "{{ filename | replace:".md",".jpg"}}" alt="{{ article.title }}"/>
+        {% endif %}
+	</header>
+            
+    {{content}}
+
+
+	{% assign articles = site.pages | sort:"path" %}
+    {% for article in articles %}
+		{% if article.path == page.path %}
+			{% assign previous_id = forloop.index0 | minus:'1' %}
+			{% assign page_previous = articles[previous_id] %}
+			{% assign next_id = forloop.index0 | plus:'1' %}
+			{% assign page_next = articles[next_id] %}
+		{% endif %}
+	{% endfor %}
+	
+	{% include share-buttons.html %}
+	
+	<div class="esl-paging cf">
+	{% if page_previous %}
+	  	<div class="esl-previous-page"><a href="{{page_previous.url}}"><< {{page_previous.title}}</a></div>
+	{% endif %}
+	  
+	{% if page_next %}
+	  	<div class="esl-next-page"><a href="{{page_next.url}}">{{page_next.title}} >></a></div>
+	{% endif %}
+	</div>
+
+</div>
+            </div>
+
+    </div>
+</article>
+            
+
+{%if page.tag != null %}
+    <section class="related-posts">
+        <div class="wrapper">
+            <div class="related-posts">
+                <h3>Related Blogs</h3>
+                <div class="esl-related-posts">
+				{% for post in site.posts %}
+					{% if post.tags contains page.tag %}
+						{% include related-blog-block.html %}		
+					{% endif %}
+				{% endfor %}
+				</ul>
+            </div>
+        </div>
+    </section>
+{% endif %}

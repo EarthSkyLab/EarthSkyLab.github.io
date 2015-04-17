@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         redcarpet
+
+# Permalinks
+# permalink:        pretty
+
+# Setup
+title:            EarthSkyLab
+tagline:          'EarthSkyLab vision'
+description:      'so here we are... testing...'
+url:              http://earthskylab.vision/
+
+author:
+  name:           'EarthSkyLab'
+  url:            http://earthskylab.vision/
+
+paginate:         5
+
+# Custom vars
+version:          1.0
+
+github:
+  repo:           https://github.com/vvorski/vvorski.github.io
+
+excerpt_separator: <!-- more -->
+
+collections:
+  authors:
+    output: true

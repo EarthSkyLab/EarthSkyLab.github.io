@@ -1,0 +1,12 @@
+<div>
+      <a href="{{ post.url }}">
+	    
+        <div class="esl-related-post-title"><h1>{{post.title}}</h1> <span class="post-date">{{ post.date | date_to_string }}</span> 
+        {%if author.title %}
+        <div class="post-author">by {{ author.title }}</div>
+        {%endif%}
+        </div>
+        <div class="content" style="margin: 10px 10px 0px 20px;">{{ post.content | strip_html | truncatewords: 30 }}</div>                                
+      </a>
+	  {% include post-tag-list.html %}
+</div>

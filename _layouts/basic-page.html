@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+<body class="single single-post single-format-standard" id="top" style="">
+
+    <!-- <img class="overlay hidden" src=''></img> -->
+
+      {% include sidebar.html %}
+
+	  {{ content }}
+
+      {% include newsletter.html %}
+
+
+<footer id="footer" class="footer" role="contentinfo">
+	<div class="wrapper">
+		{%if page.author %}
+			{% for an_author in site.authors %}
+				{% assign author_id = an_author.path | split:"/" | last | split:"." | first %}
+				{% if author_id == page.author %}
+					{% assign author = an_author %} 
+				{% endif %}
+			{% endfor %}
+		{%endif%}
+
+		<a href="/license.html">© {% if author %}{{author.title}}{%else%}EarthSkyLab{%endif%}</a>
+		<a href="/about.html">What is EarthSkyLab?</a>
+		<a href="/newsletter.html">Newsletter</a>
+		<a href="/one-page.html">View as One Page</a>
+		{% if page.author %}
+		{% else %}		
+		<a rel="license" href="/license.html"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+		{% endif %}
+	</div>
+</footer>
+
+   	<!--[if lt IE 9]>
+     	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="/public/barebones/general-ie8.js"></script>
+	    <style>
+	    .home .thumb:before {background: none !important;}
+		</style>
+	<![endif]-->
+   	<!--[if gte IE 9]>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	    <script src="/public/barebones/general.js"></script>
+	<![endif]-->
+	<!--[if !IE]><!-->
+		<script src="/public/barebones/jquery.min.js"></script>
+	    <script src="/public/barebones/general.js"></script>
+	<!--<![endif]-->
+
+    <script src="/public/barebones/general-1.js"></script>
+
+
+{% include analytics.html %}
+
+</body>
+
+</html>
+
+

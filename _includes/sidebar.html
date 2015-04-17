@@ -1,0 +1,60 @@
+<!----- MENU - for mobile/small page ----------->
+<div class="mobile-display">
+    
+	<section role="complementary" class="secondary-content mobile-nav">
+	    <a href="/" title="EarthSkyLab" rel="home">
+	        <img src="/public/logo-compact.jpg" alt="EarthSkyLab"  class="logo">
+	    </a>
+{% include site-map.html noimages="1" %}
+		
+		<a href="/blog.html">
+			<center><img src="/public/blog.png" alt="Blog" class="esl-chapter-icon"></center>
+			<H1 class="esl-site-map">BLOG</H1></a>
+		<a href="/newsletter.html"><h2  class="esl-site-map">NEWSLETTER</h2></a>
+        <a href="/one-page.html"><h2  class="esl-site-map">PRINT VIEW</h2></a>
+	</section>
+	
+
+</div>
+
+<header role="banner">
+	<div class="wrapper top cf mobile-none">
+        <a href="/site-map.html">Index</a>
+        <a href="/one-page.html">One-page view</a>
+        <a href="/about.html">What is EarthSkyLab?</a>
+	</div>
+	<i class="line mobile-none"></i>
+    <div class="wrapper mobile-none">
+        <div>
+            <a href="/" title="EarthSkyLab.vision" rel="home" class="logo">
+	        <img src="/public/logo-compact.jpg" alt="EarthSkyLab"  class="logo">
+            </a>
+        </div>
+    </div>
+    <div class="wrapper top mobile-display">
+         <a href="/" title="EarthSkyLab.vision" rel="home" class="logo">
+	        <img src="/public/logo-compact.jpg" alt="EarthSkyLab"  class="logo">
+        </a>
+        <div id="mobile-burger">
+            <div class="mobile-nav-icon mobile-display">
+                <img src="/public/barebones/img/icon-nav.png">
+            </div>
+            <span class="mobile-header-close">Close Nav</span> 
+        </div>
+    </div>
+</header>    
+
+<!----- MENU - for PC page ----------->
+<section role="complementary" class="secondary-content mobile-none">
+    <a href="/" title="EarthSkyLab.vision" rel="home" class="logo">
+	        <img src="/public/logo-compact.jpg" alt="EarthSkyLab"  class="logo">
+    </a>
+  {% include menu-list.html %}
+</section>
+
+<!----- POSTs - for PC page ----------->
+<section id="style-3" class="subcat-posts scrollbar mobile-none">
+  {% include menu-subpages-list.html %}
+</section>
+
+

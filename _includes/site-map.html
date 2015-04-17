@@ -1,0 +1,67 @@
+{% assign about = (site.pages | where: "path" , "about.md") %}
+{% if page.show-contents %}
+	{{about[0].content}}
+{% else %}
+	<a href="{{ about[0].url }}"><h2 class="esl-site-map">{{ about[0].title }}</h2></a>
+{% endif %}
+
+{% assign articles = site.pages | sort:"path" %}
+
+{% assign chapter = "" %}
+{% assign section = "" %}
+{% for article in articles %}
+	{% assign patharray = article.path | split:"/" %}
+	{% assign pathlen = patharray | size %}
+	{% if pathlen > 1 %}    		
+		{% if chapter != patharray[1] %}
+			  {% assign chapter = patharray[1] %} 
+
+			  {% assign foo = chapter | split: " " %}
+			  <center><img src="/pages/{{chapter}}/icon.png" alt="{{ foo[1] }}" class="esl-chapter-icon"></center>
+			  <h1 class="esl-site-map">{{ foo[1] }}</h1>
+		{% endif %}
+    	{% if pathlen > 3 %}    		
+    		{% if section != patharray[2] %}
+    			  {% assign section = patharray[2] | slice: 3,4 %}
+
+				  {% assign foo = section | split: " " %}
+				  <h2  class="esl-site-map"> {{ foo[1] }}</h2>
+			{% endif %}
+		{% endif %}
+		
+		{% if page.show-contents %}
+		{% else %}
+			<a href="{{ article.url }}">
+		{% endif %}
+		
+		{% if article.noimgtitle or include.noimages %}
+			<h3  class="esl-site-map">{{ article.title }}</h3>
+		{% else %}
+   			<h3  class="esl-site-map"><img width="100%" src = "{{ article.url | replace:".html",".jpg"}}" alt="{{ article.title }}"/></h3>
+   		{% endif %}
+   		</a>
+		{% if include.show-contents %}
+			{{article.content}}
+			
+			{%if article.tag != null %}
+			{% assign preamble_shown = 0 %}
+			{% for post in site.posts %}
+				{% if post.tags contains article.tag %}
+					{%if preamble_shown == 0 %}
+						{% assign preamble_shown = 1 %}
+						<div class="esl-related-posts">
+							<img src="/public/blog.png" alt="Blog" class="esl-chapter-icon">
+					{% endif %}
+					<a href="{{post.url}}">{{post.title}}</a>, &nbsp;
+				{% endif %}
+			{% endfor %}
+			{%if preamble_shown == 1 %}
+				</div>
+			{% endif %}
+
+			
+		{% endif %}
+			
+		{% endif %}
+	{% endif %}
+{% endfor %}

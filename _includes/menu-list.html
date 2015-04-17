@@ -1,0 +1,58 @@
+	<div class="home"><a href="/"><img src="/public/home.png" alt="Top" class="esl-menu-icon"> <span class="title">Home</span></a></div>
+
+	{% assign articles = site.pages | sort:"path" %}
+ 
+	{% assign chapter = "" %}
+	{% assign section = "" %}
+	
+    {% assign patharray = page.path | split:"/" %}
+    {% assign pathlen = patharray | size %}
+    {% if pathlen > 1 %}
+    	{% assign pagechapter = patharray[1] %}
+    {% endif %}
+
+    {% for article in articles %}
+    	{% assign patharray = article.path | split:"/" %}
+    	{% assign pathlen = patharray | size %}
+    	
+    	{% if pathlen > 1 %}    		
+    		{% if chapter != patharray[1] %}
+    			{% if chapter != "" %}
+					</ul></div>
+    			{% endif %}
+
+    			  {% assign chapter = patharray[1] %} 
+
+    			  {% assign chapter_array = chapter | split: " " %}
+    			  
+    			  {% if pathlen == 4 %}
+				  <div class="{{ chapter_array[1] }} {% if chapter == pagechapter %} active {% endif %}" > <a class="categories" href="/"><img src="/pages/{{chapter}}/icon.png" class="esl-menu-icon"><span class="title"> {{ chapter_array[1] }}</span></a>
+				  <ul>
+				  {%elsif pathlen == 3 %}
+				  	  {% assign section = patharray[1] | slice: 3,4 %}
+
+					  {% assign section_array = section | split: " " %}
+				  	<div class="{{ section_array[1] }} {% if chapter == pagechapter %} active {% endif %}" > <a class="esl-has-submenu" href="{{page.url}}#{{ section_array[1] }}"><img src="/pages/{{chapter}}/icon.png" class="esl-menu-icon"><span class="title"> {{ chapter_array[1] }}</span></a>
+
+				  {%endif%}
+			{% endif %}
+			
+	    	{% if pathlen > 3 %}    		
+	    		{% if section != patharray[2] %}
+	    			  {% assign section = patharray[2] | slice: 3,4 %}
+
+					  {% assign section_array = section | split: " " %}
+					  <li {% if page.path == article.path %}class="active"{% endif %}>
+					  	<a class="esl-has-submenu" href="{{page.url}}#{{ section_array[1] }}">{{ section_array[1] }}</a> 
+					  </li>
+				{% endif %}
+			{% endif %}
+			
+
+			
+    	{% endif %}
+    {% endfor %}
+	</ul></div>    
+	
+	<div class="blog"><a href="/blog.html"><img src="/public/blog.png" alt="Blog" class="esl-menu-icon">
+<span class="title">Blog</span></a></div>

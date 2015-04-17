@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+{% assign author_id = page.path | split:"/" | last | split:"." | first %}
+
+<div class="post">
+
+  <img src="/authors/{{author_id}}.jpg">
+  {{ content }}
+</div>
+
+<div class="related-posts">
+  <h2>Posts by {{page.title}}</h2>
+    {% for post in site.posts %}
+	    {% if post.author == author_id %}
+			{% include post-summary-in-list.html %}
+	    {% endif %}
+    {% endfor %}
+</div>

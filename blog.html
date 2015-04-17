@@ -1,0 +1,28 @@
+---
+layout: page
+---
+<h1>Authors</h1>
+<div class="posts cf" style="margin-left: 10px;">
+	{% for author in site.authors %}
+		{% assign author_id = author.path | split:"/" | last | split:"." | first %}
+		<a href="{{author.url}}">
+		<div style= "width:30%; float:left; margin: 10px;">
+		  <img src="/authors/{{author_id}}.jpg"><br/>
+		  <h3>{{author.title}}</h3>
+		</div>
+		</a>
+	{% endfor %}
+</div>
+
+<h1>Blogs</h1>
+<div class="posts">
+  {% for post in site.posts %}
+		{% for an_author in site.authors %}
+			{% assign author_id = an_author.path | split:"/" | last | split:"." | first %}
+			{% if author_id == post.author %}
+				{% assign author = an_author %}
+			{% endif %}
+		{% endfor %}
+  		{% include post-summary-in-list.html %}
+  {% endfor %}
+</div>

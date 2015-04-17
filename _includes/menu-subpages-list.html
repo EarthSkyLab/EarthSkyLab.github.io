@@ -1,0 +1,54 @@
+	{% assign articles = site.pages | sort:"path" %}
+ 
+	{% assign chapter = "" %}
+	{% assign section = "" %}
+    {% for article in articles %}
+    	{% assign patharray = article.path | split:"/" %}
+    	{% assign pathlen = patharray | size %}
+    	{% if pathlen > 1 %}    		
+    		{% if chapter != patharray[1] %}
+    			  {% assign chapter = patharray[1] %} 
+
+    			  {% assign foo = chapter | split: " " %}
+			{% endif %}
+			
+	    	{% if pathlen == 4 %}    
+	    	{%comment%} This is items which are divided into sections ie pages are two levels of directories deep {%endcomment%}		
+	    		{% if section != patharray[2] %}
+		    		{% if section != "" %}
+						</ul>
+	    			{% endif %}
+	    			  {% assign section = patharray[2] | slice: 3,4 %}
+
+					  {% assign foo = section | split: " " %}
+					  <ul id="posts-{{ foo[1] }}">
+						  <li><h3> {{foo[1]}} </h3></li>
+				{% endif %}
+				<li>
+					<a href="{{ article.url }}"><h4>{{ article.title }}</h4></a>
+				</li>
+			{% endif %}
+			
+			
+			{% if pathlen == 3 %}
+				{%comment%} This is items which are NOT divided into sections{%endcomment%}		
+	    		{% if section != patharray[1] %}
+		    		{% if section != "" %}
+						</ul>
+	    			{% endif %}
+	    			  {% assign section = patharray[1] | slice: 3,4 %}
+
+					  {% assign foo = section | split: " " %}
+					  <ul id="posts-{{ foo[1] }}">
+						  <li><h3> {{foo[1]}} </h3></li>
+				{% endif %}
+				<li>
+					<a href="{{ article.url }}"><h4>{{ article.title }}</h4></a>
+				</li>
+			{% endif %}
+    	{% endif %}
+    {% endfor %}
+	{% if section != "" %}
+		</ul>
+	{% endif %}
+
