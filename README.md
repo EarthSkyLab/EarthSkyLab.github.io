@@ -2,6 +2,6 @@
 layout: page
 ---
 
-(EarthSkyLab.vision)[http://EarthSkyLab.vision] website
+[EarthSkyLab.vision](http://EarthSkyLab.vision) website
 
-See (license.html)[license.html] for information about licensing.
+See [license.html](license.md) for license information.
