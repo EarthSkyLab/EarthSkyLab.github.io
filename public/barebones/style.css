@@ -868,3 +868,7 @@ h3.esl-site-map {
 	font-size: 30px;
 	line-height: 35px;
 }
+
+.esl-person-link {
+	height: 3em;
+}
