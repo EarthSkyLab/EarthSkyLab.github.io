@@ -1,10 +1,11 @@
 ---
 layout: person
 title: Evgenia Emets
-url: http://www.bobsmith.biz/
-facebook: https://www.facebook.com/paz
+facebook: https://www.facebook.com/evgenia.emets
+linkedin: https://www.linkedin.com/in/emetsjane
 ---
 
-# Evgenia Emets, Poet, Artist, Visionary
+Poet, Artist, Visionary, Creator of Light
 
-Evgenia Emets is a 
+Evgenia is light. Boundless energy, seeing beauty in the world...
+
