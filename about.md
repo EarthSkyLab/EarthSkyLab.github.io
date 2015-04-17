@@ -56,5 +56,5 @@ The EarthSkyLab Summit is a temporary community focused on developing the EarthS
 ## Facebook group
 
 ## Send us an e-mail
-timeisnow@earthskylab.vision
 
+{% include contact-email.html %}
