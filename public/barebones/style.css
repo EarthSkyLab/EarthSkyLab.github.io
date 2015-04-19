@@ -813,7 +813,8 @@ h3.esl-site-map {
 }
 
 .esl-print-view h3.esl-site-map {
-	line-height: 1em;
+	margin-bottom: 0px;
+	line-height: 1.2em;
 }
 .esl-print-view .logo {
 	width: 100%;
