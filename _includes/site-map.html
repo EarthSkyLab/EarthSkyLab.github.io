@@ -1,5 +1,5 @@
 {% assign about = (site.pages | where: "path" , "about.md") %}
-{% if page.show-contents %}
+{% if include.show-contents %}
 	{{about[0].content}}
 {% else %}
 	<a href="{{ about[0].url }}"><h2 class="esl-site-map">{{ about[0].title }}</h2></a>
@@ -12,7 +12,10 @@
 {% for article in articles %}
 	{% assign patharray = article.path | split:"/" %}
 	{% assign pathlen = patharray | size %}
-	{% assign pagebreak = "esl-pbb" %}
+	
+	{% if include.show-contents %}
+		{% assign pagebreak = "esl-pbb" %}
+	{% endif %}
 	
 	{% if pathlen > 1 %}    		
 		{% if chapter != patharray[1] %}
@@ -37,7 +40,7 @@
 			  		{% assign pagebreak = "" %}				  			
 		{% endif %}
 		
-		{% if page.show-contents %}
+		{% if include.show-contents %}
 			<div class="esl-page">
 		{% else %}
 			<a href="{{ article.url }}">

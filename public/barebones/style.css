@@ -628,6 +628,9 @@ header .mobile-display .logo{
     }
     .es-one-page .logo {
 	    width: 100%;
+	    position: absolute;
+	    left: 1.5cm;
+	    top: 1.5cm;
 	    page-break-before: right;
     }
 }
@@ -681,10 +684,12 @@ a:hover, a:hover p {
 h1.esl-site-map {
 	text-align: center;
 	font-size: 50px;
-	page-break-before: always;	
 	page-break-after:avoid;
 }
 
+.esl-print-view h1.esl-site-map {
+	page-break-before: always;
+}
 
 h2.esl-site-map {
 	margin: 1em 0 0.1em 0;
@@ -779,7 +784,7 @@ h3.esl-site-map {
 	margin: 5%;
 }
 
-.esl-one-page .esl-chapter-icon {
+.esl-print-view .esl-chapter-icon {
 	max-width: 30%;
 	margin: 5%;
 }
@@ -801,16 +806,19 @@ h3.esl-site-map {
 	margin: 0px 50px 0px 20px;
 }
 
-.esl-one-page .esl-related-posts img {
+.esl-print-view .esl-related-posts img {
 	float: left;
 	width: 30px;
 	margin: 2px 5px 0px 0px;
 }
 
-.esl-one-page .logo {
+.esl-print-view h3.esl-site-map {
+	line-height: 1em;
+}
+.esl-print-view .logo {
 	width: 100%;
 }
-.esl-one-page .esl-vision-statement {
+.esl-print-view .esl-vision-statement {
 	margin: 30px 0;
 }
 
