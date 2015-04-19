@@ -12,32 +12,41 @@
 {% for article in articles %}
 	{% assign patharray = article.path | split:"/" %}
 	{% assign pathlen = patharray | size %}
+	{% assign pagebreak = "esl-pbb" %}
+	
 	{% if pathlen > 1 %}    		
 		{% if chapter != patharray[1] %}
 			  {% assign chapter = patharray[1] %} 
 
 			  {% assign foo = chapter | split: " " %}
-			  <center><img src="/pages/{{chapter}}/icon.png" alt="{{ foo[1] }}" class="esl-chapter-icon"></center>
-			  <h1 class="esl-site-map">{{ foo[1] }}</h1>
+			  <h1 class="esl-site-map {{pagebreak}}">
+			  		{% assign pagebreak = "" %}
+				  <center><img src="/pages/{{chapter}}/icon.png" alt="{{ foo[1] }}" class="esl-chapter-icon"></center>
+				  {{ foo[1] }}
+			  </h1>
 		{% endif %}
     	{% if pathlen > 3 %}    		
     		{% if section != patharray[2] %}
     			  {% assign section = patharray[2] | slice: 3,4 %}
 
 				  {% assign foo = section | split: " " %}
-				  <h2  class="esl-site-map"> {{ foo[1] }}</h2>
+				  <h2  class="esl-site-map {{pagebreak}}"> {{ foo[1] }}</h2>
+			  		{% assign pagebreak = "" %}				  
 			{% endif %}
+			{% else %}
+			  		{% assign pagebreak = "" %}				  			
 		{% endif %}
 		
 		{% if page.show-contents %}
+			<div class="esl-page">
 		{% else %}
 			<a href="{{ article.url }}">
 		{% endif %}
 		
 		{% if article.noimgtitle or include.noimages %}
-			<h3  class="esl-site-map">{{ article.title }}</h3>
+			<h3  class="esl-site-map {{pagebreak}}">{{ article.title }}</h3>
 		{% else %}
-   			<h3  class="esl-site-map"><img width="100%" src = "{{ article.url | replace:".html",".jpg"}}" alt="{{ article.title }}"/></h3>
+   			<h3  class="esl-site-map {{pagebreak}}"><img width="100%" src = "{{ article.url | replace:".html",".jpg"}}" alt="{{ article.title }}"/></h3>
    		{% endif %}
    		</a>
 		{% if include.show-contents %}
@@ -58,7 +67,7 @@
 			{%if preamble_shown == 1 %}
 				</div>
 			{% endif %}
-
+			</div>
 			
 		{% endif %}
 			

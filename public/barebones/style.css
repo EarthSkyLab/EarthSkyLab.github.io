@@ -599,26 +599,35 @@ header .mobile-display .logo{
 
 /* print css*/
 @media print {
-   header nav, footer , .secondary-content , .subcat-posts , .join , .follow , .addtoany_share_save_container, .newsletter {
+   header nav, footer , .secondary-content , .subcat-posts , .join , .follow , .addtoany_share_save_container, .newsletter , .top, .line {
         display: none;
     }
-    img {
-        max-width: 500px;
-    }
+
     @page {
         margin: 1.5cm;
     }
+    
+    @page {
+	   @bottom-right {
+	    content: counter(page) " of " counter(pages);
+	   }
+	}
     .type-post .wrapper {
-        max-width: 700px;
-        padding-bottom: 47px;
-        position: relative;
+        width: 95% !important;
         right: 0px;
-    }
+        position: relative;
+     }
     .related-posts .wrapper {
         max-width: 700px;
         padding-bottom: 11px;
         position: relative;
         right: 0px;
+    }
+    .esl-vision-statement {
+	    page-break-after: always;
+    }
+    .es-one-page .logo {
+	    width: 100%;
     }
 }
 
@@ -671,18 +680,31 @@ a:hover, a:hover p {
 h1.esl-site-map {
 	text-align: center;
 	font-size: 50px;
+	page-break-before: always;	
+	page-break-after:avoid;
 }
+
+
 h2.esl-site-map {
 	margin: 1em 0 0.1em 0;
 	text-align: center;
 	font-size: 35px;
+	page-break-after:avoid;
 }
 h3.esl-site-map {
 	margin: 0.5em 0;
 	text-align: center;
 	font-size: 25px;
+	page-break-after:avoid;
 }
 
+.esl-page {
+	page-break-inside: avoid;
+}
+
+.esl-pbb {
+	page-break-before: always;
+}
 
 .mobile-nav .esl-chapter-icon {
 	max-width: 35%;
@@ -784,6 +806,9 @@ h3.esl-site-map {
 	margin: 2px 5px 0px 0px;
 }
 
+.esl-one-page .logo {
+	width: 100%;
+}
 .esl-one-page .esl-vision-statement {
 	margin: 30px 0;
 }
@@ -840,6 +865,9 @@ h3.esl-site-map {
 
 }
  
+.type-post p {
+	text-indent: 1em;
+}
 .post-info {
 	margin-top: 10px;
 }
