@@ -628,6 +628,7 @@ header .mobile-display .logo{
     }
     .es-one-page .logo {
 	    width: 100%;
+	    page-break-before: right;
     }
 }
 
