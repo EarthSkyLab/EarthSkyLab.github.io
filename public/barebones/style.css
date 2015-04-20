@@ -626,12 +626,10 @@ header .mobile-display .logo{
     .esl-vision-statement {
 	    page-break-after: always;
     }
-    .es-one-page .logo {
-	    width: 100%;
-	    position: absolute;
-	    left: 1.5cm;
-	    top: 1.5cm;
-	    page-break-before: right;
+    .esl-print-view .logo {
+	    width: 90%;
+		
+	    margin: 0px 0px 3em 0px;
     }
 }
 
