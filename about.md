@@ -53,7 +53,9 @@ The EarthSkyLab Summit is a temporary community focused on developing the EarthS
 
 # Connect with us
 
-## Facebook group
+## Facebook
+
+The [Earth Sky Lab facebook page]({{site.facebook}}) for updates and official announcements
 
 ## Send us an e-mail
 
