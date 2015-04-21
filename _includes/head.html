@@ -60,6 +60,18 @@
 <meta property="og:url" content="{{page.url}}">
 <meta property="og:type" content="article">
 <meta property="og:description" content="{{ post.content | strip_html | truncatewords: 50 }}">
+{% for an_author in site.authors %}
+	{% assign author_id = an_author.path | split:"/" | last | split:"." | first %}
+	{% if author_id == page.author %}
+		{% assign author = an_author %} 
+	{% endif %}
+{% endfor %}
+{% if author %}
+<meta property="article:author" content="{{author.facebook}}" />
+{% endif %}
+<meta property="article:publisher" content="{{site.facebook}}" />
+<meta property="og:image" content="/public/logo-compact.jpg" />
+
 <!-- END - Facebook Open Graph Meta Tags -->
 
 
