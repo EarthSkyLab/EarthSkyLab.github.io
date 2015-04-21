@@ -54,10 +54,10 @@
 
 
 <!-- START - Facebook Open Graph Meta Tags-->
-<meta property="og:locale" content="en_GB">
-<meta property="og:site_name" content="EarthSkyLab.vision">
-<meta property="og:url" content="{{page.url}}">
-<meta property="og:type" content="article">
+<meta property="og:locale" content="en_GB" />
+<meta property="og:site_name" content="EarthSkyLab.vision" />
+<meta property="og:url" content="{{page.url}}"/>
+<meta property="og:type" content="article"/>
 {% for an_author in site.authors %}
 	{% assign author_id = an_author.path | split:"/" | last | split:"." | first %}
 	{% if author_id == page.author %}
@@ -67,14 +67,14 @@
 {% if author %}
 <meta property="article:author" content="{{author.facebook}}" />
 {% endif %}
-<meta property="og:description" content="{{ page.title }}  {{ page.excerpt | strip_html }}">
-<meta property="og:title" content="{{page.title}} {{author.title}}">
+<meta property="og:title" content="{{page.title}} {{author.title}}" />
 <meta property="article:publisher" content="{{site.facebook}}" />
 <meta property="og:image" content="{{site.url}}public/logo-compact.jpg" />
+<meta property="og:description" content="{{ page.title }}  {{ page.excerpt | strip_html }}" />
 
 <!-- END - Facebook Open Graph Meta Tags -->
 
 
-<link rel="stylesheet" href="http://static.addtoany.com/menu/svg/icons.11.svg.css">
+<link rel="stylesheet" href="http://static.addtoany.com/menu/svg/icons.11.svg.css" />
 
 </head>
