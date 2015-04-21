@@ -24,7 +24,6 @@
 <link rel="icon" type="image/png" href="/public/favicon/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="/public/favicon/favicon-16x16.png" sizes="16x16" />
 <link rel="icon" type="image/png" href="/public/favicon/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="&nbsp;"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="/public/favicon/mstile-144x144.png" />
 <meta name="msapplication-square70x70logo" content="/public/favicon/mstile-70x70.png" />
@@ -69,8 +68,10 @@
 {% endif %}
 <meta property="og:title" content="{{page.title}} {{author.title}}" />
 <meta property="article:publisher" content="{{site.facebook}}" />
-<meta property="og:image" content="{{site.url}}public/logo-compact.jpg" />
 <meta property="og:description" content="{{ page.title }}  {{ page.excerpt | strip_html }}" />
+<meta property="og:image" content="{{ page.url | replace:".md",".jpg"}}" />
+<meta property="og:image" content="{{page.layout}} {{site.url}}public/logo-compact.jpg" />
+
 
 <!-- END - Facebook Open Graph Meta Tags -->
 
