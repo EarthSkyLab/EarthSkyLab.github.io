@@ -1,0 +1,11 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lusitana);
+
+.author-victor, .author-victor h1, .author-victor h2, .author-victor h3 {
+	font-family: Lusitana, inherit !important;
+	font-weight: 400 !important;
+}
+
+.author-victor.type-post p {
+	text-align: left !important;
+}

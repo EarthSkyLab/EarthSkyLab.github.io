@@ -213,7 +213,12 @@ body.page-id-2 header div.wrapper.top , body.page-id-2 header i.line {opacity: 1
 .type-post li, .type-post p {
 	font-size: 20px;
 }
-.type-post p {display: inline-block;  line-height: 30px; width: 100%; text-align: justify; margin: 0.9em 0;}
+.type-post p {
+	display: inline-block;  
+	width: 100%; 
+	text-align: justify; 
+	margin: 0.9em 0;
+	}
 .type-post p:first-child {margin-top:0px;}
 .type-post p a {color: inherit;}
 .type-post p img,.type-post .wp-caption, .type-post h5 {display: block;  height: auto; margin: 15px 0 14px;}

@@ -75,6 +75,9 @@
 
 <!-- END - Facebook Open Graph Meta Tags -->
 
+{% if page.author %}
+<link rel="stylesheet" href="/authors/{{page.author}}.css" />
+{% endif %}
 
 <link rel="stylesheet" href="http://static.addtoany.com/menu/svg/icons.11.svg.css" />
 
