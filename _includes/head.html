@@ -55,7 +55,7 @@
 <!-- START - Facebook Open Graph Meta Tags-->
 <meta property="og:locale" content="en_GB" />
 <meta property="og:site_name" content="EarthSkyLab.vision" />
-<meta property="og:url" content="{{page.url}}"/>
+<meta property="og:url" content="{{site.url}}{{page.url}}"/>
 <meta property="og:type" content="article"/>
 {% for an_author in site.authors %}
 	{% assign author_id = an_author.path | split:"/" | last | split:"." | first %}
