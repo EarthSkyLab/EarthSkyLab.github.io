@@ -68,11 +68,17 @@
 {% endif %}
 <meta property="og:title" content="{{page.title}} {{author.title}}" />
 <meta property="article:publisher" content="{{site.facebook}}" />
-{% if page.layout == "person" %}
+
+{% assign path_one = page.path | split:"/" %}
+
+{% if page.author %}
+<meta property="og:image" content="{{site.url}}/authors/{{page.author}}.jpg" />
+{% else if path_one[0] == "pages" && !page.noimgtitle %}
 <meta property="og:image" content="{{site.url}}{{ page.url | replace:".html",".jpg"}}" />
 {% else %}
 <meta property="og:image" content="{{site.url}}/public/logo-compact.jpg" />
 {% endif %}
+<meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines}}" />
 
 <!-- END - Facebook Open Graph Meta Tags -->
 
