@@ -68,9 +68,11 @@
 {% endif %}
 <meta property="og:title" content="{{page.title}} {{author.title}}" />
 <meta property="article:publisher" content="{{site.facebook}}" />
-<meta property="og:image" content="{{ page.url | replace:".md",".jpg"}}" />
-<meta property="og:image" content="{{page.layout}} {{site.url}}public/logo-compact.jpg" />
-
+{% if page.layout == "person" %}
+<meta property="og:image" content="{{site.url}}{{ page.url | replace:".html",".jpg"}}" />
+{% else %}
+<meta property="og:image" content="{{site.url}}/public/logo-compact.jpg" />
+{% endif %}
 
 <!-- END - Facebook Open Graph Meta Tags -->
 
