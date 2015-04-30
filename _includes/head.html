@@ -78,7 +78,7 @@
 {% else %}
 <meta property="og:image" content="{{site.url}}/public/logo-compact.jpg" />
 {% endif %}
-<meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines}}" />
+<meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | truncatewords: 20}}" />
 
 <!-- END - Facebook Open Graph Meta Tags -->
 
