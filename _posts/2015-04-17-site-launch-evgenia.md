@@ -4,8 +4,8 @@ title: The Vision of EarthSkyLab
 tags: celebration
 author: evgenia
 ---
-I looked at my hands today in my dream – it was not easy but I did and I could see them, the wrinkles, the skin, the shape and then I pushed them against the Sun and the Sun was bright and shining through my fingers. I looked straight up and woke up ecstatic.
-E Emets
+*I looked at my hands today in my dream – it was not easy but I did and I could see them, the wrinkles, the skin, the shape and then I pushed them against the Sun and the Sun was bright and shining through my fingers. I looked straight up and woke up ecstatic.*
+- E Emets
 
 EarthSkyLab came to me as a vision. I woke up one day and knew that I am going to start a community. I did not know why or how, but I knew this is what I need to do. In my vision I was shown a magnificent celebration, many guests coming to join. A bus driver was going around and picking them one by one and arriving with new group of people every time. Finally he arrived again and there was no one on the bus apart from himself. I was looking for the meaning of this in my vision. He looked at me, stepped down and joined us as well. He was the last human and he was joining us!
 
