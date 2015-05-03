@@ -1,6 +1,6 @@
 ---
 layout: person
-title: Evgenia Emets - Poet, Artist, Visionary, Source of Light
+title: Evgenia Emets
 facebook: https://www.facebook.com/evgenia.emets
 linkedin: https://www.linkedin.com/in/emetsjane
 ---
