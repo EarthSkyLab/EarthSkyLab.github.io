@@ -1,7 +1,13 @@
 <div class="esl-related-posts-block">
 	<a href="{{post.url}}">
-		<img src="/authors/{{post.author}}.jpg" width="230px" style="float:left; padding: 3px;">
+				<img src =
+				{% if post.post-image %}
+		           "/public/images/{{post.post-image}}" 
+		        {% else %}
+					"/authors/{{post.author}}.jpg" 
+				{% endif %}
+				width="230px" style="float:left; padding: 3px;" alt="{{ post.title }}"/>
         <div class="esl-related-post-title">{{post.title}}</div>
-        <div class="content">{{ post.content | strip_html | truncatewords: 30 }}</div>                                
+        <div class="content">{{ post.content | markdownify | strip_html | strip_newlines | truncatewords: 30}}</div>                                
 	</a>
 </div>
