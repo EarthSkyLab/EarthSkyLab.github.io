@@ -14,7 +14,8 @@ layout: basic-page
 		            
 			<div class="post">
 			  <a href="/authors/{{page.author}}.html">
-				{% if page.post-image %}
+				{% if page.noimgtitle %}
+				{% elsif page.post-image %}
 		          <img src = "/public/images/{{page.post-image}}" alt="{{ page.title }}"/>
 		        {% else %}
 				  <img src="/authors/{{page.author}}.jpg"  alt="{{ page.title }}"/>

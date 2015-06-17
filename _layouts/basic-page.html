@@ -4,6 +4,23 @@
   {% include head.html %}
 
 <body class="single single-post single-format-standard" id="top" style="">
+   	<!--[if lt IE 9]>
+     	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="/public/barebones/general-ie8.js"></script>
+	    <style>
+	    .home .thumb:before {background: none !important;}
+		</style>
+	<![endif]-->
+   	<!--[if gte IE 9]>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	    <script src="/public/barebones/general.js"></script>
+	<![endif]-->
+	<!--[if !IE]><!-->
+		<script src="/public/barebones/jquery.min.js"></script>
+	    <script src="/public/barebones/general.js"></script>
+	<!--<![endif]-->
+
+    <script src="/public/barebones/general-1.js"></script>
 
     <!-- <img class="overlay hidden" src=''></img> -->
 
@@ -36,23 +53,6 @@
 	</div>
 </footer>
 
-   	<!--[if lt IE 9]>
-     	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	    <script src="/public/barebones/general-ie8.js"></script>
-	    <style>
-	    .home .thumb:before {background: none !important;}
-		</style>
-	<![endif]-->
-   	<!--[if gte IE 9]>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	    <script src="/public/barebones/general.js"></script>
-	<![endif]-->
-	<!--[if !IE]><!-->
-		<script src="/public/barebones/jquery.min.js"></script>
-	    <script src="/public/barebones/general.js"></script>
-	<!--<![endif]-->
-
-    <script src="/public/barebones/general-1.js"></script>
 
 
 {% include analytics.html %}
