@@ -3,6 +3,7 @@ layout: post
 title: ‘Free To Learn’ by Peter Gray 
 tags:  life-long free-to-learn
 author: evgenia
+post-image: Peter-Gray-Free-to-Learn.jpg
 ---
 
 Could we ever imagine life could be a different game? Life could actually be a playful, enjoyable, fun endevour full of explorations, revelations, great adventures and learnings? 
