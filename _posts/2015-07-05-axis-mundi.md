@@ -21,49 +21,49 @@ We invite architects, designers, permaculture experts, artists, craftsmen, entre
 
 ##Focus Questions
 We see the following questions as important to this conversation:
-How do we create a pattern language for EarthSkyLab?
-How to create a village which fosters community interaction?
-How to create a village which supports our values and goals?
-What shared spaces does the EarthSkyLab community need?
-How to design a village which is a regenerative ecosystem?
-How to create a garden which the community can work on together?
-How to combine community, architecture, art, beauty and permaculture?
-How can we effectively combine permaculture and architecture approaches?
-How can we create sacred space?
-How to create an effective balance of off-grid and grid infrastructure?
-How do we plan building process so that we can gradually develop building infrastructure and have spaces for specific activities.
+* How do we create a pattern language for EarthSkyLab?
+* How to create a village which fosters community interaction?
+* How to create a village which supports our values and goals?
+* What shared spaces does the EarthSkyLab community need?
+* How to design a village which is a regenerative ecosystem?
+* How to create a garden which the community can work on together?
+* How to combine community, architecture, art, beauty and permaculture?
+* How can we effectively combine permaculture and architecture approaches?
+* How can we create sacred space?
+* How to create an effective balance of off-grid and grid infrastructure?
+* How do we plan building process so that we can gradually develop building infrastructure and have spaces for specific activities.
 
 ##Goals
-Create an EarthSkyLab pattern language.
-Plan out what shared spaces the community needs and create a timeline for what order spaces should be built in.
-Plan the search for the land.
-Create a conceptual design for the village, the land and infrastructure.
+* Create an EarthSkyLab pattern language.
+* Plan out what shared spaces the community needs and create a timeline for what order spaces should be built in.
+* Plan the search for the land.
+* Create a conceptual design for the village, the land and infrastructure.
 Whilst we recognise that without a concrete location creating a design is artificial but we feel that having inspirational images will greatly help the search for members so it is important for EarthSkyLab.
 
 ##How? - the process
 Introductory meeting
-Clarify everyone’s time availability & interests
-Review focus questions
-Decide process and timeline
-Refine & Finalise goals
-Create timeline
+* Clarify everyone’s time availability & interests
+* Review focus questions
+* Decide process and timeline
+* Refine & Finalise goals
+* Create timeline
 (meeting minutes and photos possibly video, to be published on EarthSkyLab website blog)
 
 ##Who?
-Tommazo Franzolini - Architect
-Nacho Martin - Architect
-Manu Collado - Architect
-Michael Obrizkiv - Designer
-Pedro Serpa - Permaculture
-Evgenia Emets - Artist/Founder
-Victor Vorski - Imagineer/ Founder
+* Tommazo Franzolini - Architect
+* Nacho Martin - Architect
+* Manu Collado - Architect
+* Michael Obrizkiv - Designer
+* Pedro Serpa - Permaculture
+* Evgenia Emets - Artist/Founder
+* Victor Vorski - Imagineer/ Founder
 
 ##Why participate?
-Create a pattern language for community living in nature in the 21st century and beyond.
-Explore the intersection of permaculture and architecture.
-Become part of the EarthSkyLab extended community 
-work with us to find the land and implement the project
-come stay at EarthSkyLab
+* Create a pattern language for community living in nature in the 21st century and beyond.
+* Explore the intersection of permaculture and architecture.
+* Become part of the EarthSkyLab extended community 
+  *  Work with us to find the land and implement the project
+  *  Come stay at EarthSkyLab
 
 ##EarthSkyLab : Buildings & Spaces
 * Homes - We need to create an EarthSkyLab pattern language which results in a beautiful coherent village integrated into the landscape and natural ecosystem whilst allowing each member to design their home to reflect their personalities and dreams.
