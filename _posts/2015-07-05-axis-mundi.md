@@ -69,13 +69,13 @@ Introductory meeting
 * Homes - We need to create an EarthSkyLab pattern language which results in a beautiful coherent village integrated into the landscape and natural ecosystem whilst allowing each member to design their home to reflect their personalities and dreams.
 * Community gathering space - the space where the community gathers for discussion, ceremonies and celebrations, a space with wonderful acoustics and beautiful light.
 * Studios & Workshops
-Co-working space
-Woodworking workshop
-Ceramics studio
-Printmaking
-Studio for filming/photography/painting etc
+  * Co-working space
+  * Woodworking workshop
+  * Ceramics studio
+  * Printmaking
+  * Studio for filming/photography/painting etc
 * Infant & child space (nursery/kindergarten) - a shared space for the youngest members of the community supporting community-shared childcare responsibilities.
-Youth spaces - space for the young to learn, do projects and enjoy life.
+* Youth spaces - space for the young to learn, do projects and enjoy life.
 * Garden - the EarthSkyLab garden is a focal point of the community, bringing members together and deepening our connection to nature.
 * Food Forest & surrounding wilderness - Much of EarthSkyLab land is going to be devoted to a food and wild forest. We will use responsible permaculture-based forestry practices.
 * Streams & Ponds - managing water resources effectively is key to creating a regenerative ecosystem. 
