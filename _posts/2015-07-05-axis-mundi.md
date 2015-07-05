@@ -85,6 +85,6 @@ Introductory meeting
 … Other spaces as discovered through the planning process.
 
 ##Moodboard Axis Mundi 
-https://www.pinterest.com/earthskylab/axis-mundi-earthskylab/
+(https://www.pinterest.com/earthskylab/axis-mundi-earthskylab/)
 
 
