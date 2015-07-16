@@ -3,6 +3,7 @@ layout: post
 title: Axis Mundi
 tags: village
 author: evgenia
+post-image: Axis-Mundi-meeting01.jpg
 ---
 
 #EarthSkyLab Axis Mundi
