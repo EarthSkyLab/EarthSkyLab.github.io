@@ -3,7 +3,7 @@ layout: post
 title: Portugal Property Search Adventure
 tags: village
 author: victor
-post-image: 
+post-image: land-search-july2015/village-1.JPG
 ---
 
 This weekend we spend three days in the area of Lousa, just east of Coimbra. On the first day we started with an extensive discussion with the real-estate agent and an architect specialising in natural building. The key learning points where:
