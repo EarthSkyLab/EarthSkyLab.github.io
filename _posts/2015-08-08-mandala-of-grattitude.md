@@ -13,7 +13,6 @@ Celebration brings the community together creating a shared experience, a time o
 All participants brought offerings to the mandala, the mandala remixed everyone’s contribution and everyone took back home a bottle of mandala spices and a bottle of mandala herbs. 
 
 The experience was enjoyable and even moving showing that the need for ceremony, for participating in rituals which take us out of the ordinary is a fundamental need in all of us. 
-
 _- Victor_
 
 <div class='pixels-photo'>
@@ -36,7 +35,6 @@ _- Victor_
 </div>
 
 togetherness...  the creation of beauty with what nature offers us… the importance of everyone’s contribution… important as a simple moment of communion, reinforcing a profound sense of belonging. 
-
 _- Roberto and Judith_
 
 <div class='pixels-photo'>
@@ -54,7 +52,6 @@ _- Roberto and Judith_
 
 
 Making a mandala together is a sacred communion. Mandala serves as a microcosm of the ideal community life, creating beauty and harmony through sharing and exchange. Virtuous value system is most important to nourish in the community space.  The forces of creating and destroying in mandala making, re-establishes one's important life values, accepting the transience and giving gratitude to what was and what is, and learning to live in the present with peace and harmony. 
-
 _- Kira Zhi_
 
 <div class='pixels-photo'>
@@ -68,7 +65,6 @@ _- Kira Zhi_
 
 
 It is a beautiful experience to plan and create something that did not exist before, see it grow and then dissolve. This experience could only happen out of many voices, hands and hearts coming together and contributing equally to the physical construction of the Mandala but also offering their wishes and gratitudes at the ceremony. We believe that such mandalas have been used since times immemorial during celebrations in traditional communities and they are still preserved in many traditions of the World. They can have many forms and their meanings can vary but we have decided to create it living and edible, with everyone contributing and everyone taking a part. We will hold a Mandala ceremony every year, with new variations, to celebrate community life. 
-
 _- Evgenia_
 
 
