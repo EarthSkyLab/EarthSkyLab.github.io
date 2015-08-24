@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mandala of Gratitude - Wedding one year aniversary & gratitude celebration
-tags: celebration
+tags: celebration, gratitude, 
 post-image: mandala-2015.jpg
 author: victor
 ---
