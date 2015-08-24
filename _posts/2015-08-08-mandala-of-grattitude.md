@@ -7,12 +7,6 @@ author: victor
 ---
 
 
-<div class='pixels-photo'>
-  <p>
-    <img src='https://drscdn.500px.org/photo/112380177/m%3D900/e249fc171270bceb7372e94d907600ed' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'>
-  </p>
-  <a href='https://500px.com/photo/112380177/mandala-celebration-earthskylab-by-earthskylab-' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'></a>
-</div>
 
 Celebration brings the community together creating a shared experience, a time out of the ordinary. In the modern world too many of life’s celebrations have been eaten up by consumerism and other forces for their own ends. In order to create pure celebrations again I believe we have to create new rituals. We have to invent new ways of joining together in ceremony to recognize the important moments in life, to observe the cycle of existence. In this spirit we created the Mandala of Gratitude celebration. A chance for Evgenia & I to say thank you for our first year of marriage, a chance to say thank you for our friends for supporting us through this time and the chance to create a moment where our community can gather and reflect on what each of us is grateful for. Gratitude joins the cores of most religions and the latest research on human happiness clearly points towards it being at the core of a happy life. Taking inspiration from history and all we have seen in our lives we created a modern but timeless ceremony, welcoming to all irrespective of religious affiliation or spiritual belief. 
 
@@ -93,8 +87,11 @@ _- Evgenia_
   <a href='https://500px.com/photo/112380373/mandala-celebration-earthskylab-by-earthskylab-' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
 
-
-
-
+<div class='pixels-photo'>
+  <p>
+    <img src='https://drscdn.500px.org/photo/112380177/m%3D900/e249fc171270bceb7372e94d907600ed' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'>
+  </p>
+  <a href='https://500px.com/photo/112380177/mandala-celebration-earthskylab-by-earthskylab-' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'></a>
+</div>
 
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
