@@ -2,8 +2,11 @@
 layout: post
 title: Mandala of Gratitude - Wedding one year aniversary & gratitude celebration
 tags: celebration
+post-image: mandala-2015.jpg
 author: victor
 ---
+
+
 <div class='pixels-photo'>
   <p>
     <img src='https://drscdn.500px.org/photo/112380177/m%3D900/e249fc171270bceb7372e94d907600ed' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'>
@@ -12,9 +15,12 @@ author: victor
 </div>
 
 Celebration brings the community together creating a shared experience, a time out of the ordinary. In the modern world too many of life’s celebrations have been eaten up by consumerism and other forces for their own ends. In order to create pure celebrations again I believe we have to create new rituals. We have to invent new ways of joining together in ceremony to recognize the important moments in life, to observe the cycle of existence. In this spirit we created the Mandala of Gratitude celebration. A chance for Evgenia & I to say thank you for our first year of marriage, a chance to say thank you for our friends for supporting us through this time and the chance to create a moment where our community can gather and reflect on what each of us is grateful for. Gratitude joins the cores of most religions and the latest research on human happiness clearly points towards it being at the core of a happy life. Taking inspiration from history and all we have seen in our lives we created a modern but timeless ceremony, welcoming to all irrespective of religious affiliation or spiritual belief. 
+
 All participants brought offerings to the mandala, the mandala remixed everyone’s contribution and everyone took back home a bottle of mandala spices and a bottle of mandala herbs. 
+
 The experience was enjoyable and even moving showing that the need for ceremony, for participating in rituals which take us out of the ordinary is a fundamental need in all of us. 
 _- Victor_
+
 <div class='pixels-photo'>
   <p>
     <img src='https://drscdn.500px.org/photo/112380187/m%3D900/3a86d780f8d042655463e19a441b4498' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'>
