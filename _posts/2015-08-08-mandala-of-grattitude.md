@@ -56,6 +56,13 @@ _- Kira Zhi_
 
 <div class='pixels-photo'>
   <p>
+    <img src='https://drscdn.500px.org/photo/112380257/m%3D900/b8d424827096504b784994a005d80af3' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'>
+  </p>
+  <a href='https://500px.com/photo/112380257/mandala-celebration-earthskylab-by-earthskylab-' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'></a>
+</div>
+
+<div class='pixels-photo'>
+  <p>
     <img src='https://drscdn.500px.org/photo/112380235/m%3D900/d595ecfe18ff08fd81e3d75407e72054' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'>
   </p>
   <a href='https://500px.com/photo/112380235/mandala-celebration-earthskylab-by-earthskylab-' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'></a>
@@ -68,12 +75,6 @@ It is a beautiful experience to plan and create something that did not exist bef
 _- Evgenia_
 
 
-<div class='pixels-photo'>
-  <p>
-    <img src='https://drscdn.500px.org/photo/112380257/m%3D900/b8d424827096504b784994a005d80af3' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'>
-  </p>
-  <a href='https://500px.com/photo/112380257/mandala-celebration-earthskylab-by-earthskylab-' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'></a>
-</div>
 <div class='pixels-photo'>
   <p>
     <img src='https://drscdn.500px.org/photo/112380337/m%3D900/c88a34575491e8fa83b55b7b8b8059a8' alt='Mandala Celebration EarthSkyLab by EarthSkyLab  on 500px.com'>
