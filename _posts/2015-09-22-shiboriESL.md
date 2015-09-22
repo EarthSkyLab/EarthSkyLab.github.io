@@ -14,6 +14,7 @@ In the future we will create art and crafts experiences, collaborations between 
 
 helping hoping learning sharing thinking wishing wondering boiling stirring smiling seeing laughing living dyeing - *James*
 
+
 Shibori is an act of dying fabric by binding it into close knots. The resulting pattern is formed out of interesting shapes of various shades of the chosen color.
 
 Me and my wife were invited to participate in the Shibori experience by Evgenia last winter. We gathered in the spatious house of Evgenia and Viktor, started communicating and using LAN cables and pegs to tie the fabric. Any communal work always binds not only towels but also people. Since the act of making something simple doesn't require any particular knowledge it becomes free, enjoyable and fun.
