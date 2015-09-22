@@ -98,7 +98,6 @@ After binding our own towels
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
-
 <div class='pixels-photo'>
   <p>
     <img src='https://drscdn.500px.org/photo/112275701/m%3D900/c3e2b8edb0c44ad52cd5030643d66bc6' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'>
