@@ -17,8 +17,8 @@
 		{% assign pagebreak = "esl-pbb" %}
 	{% endif %}
 	
-	{% if pathlen > 1 %}    		
-		{% if chapter != patharray[1] and patharray[1] != "index.html" %}
+	{% if pathlen > 1 and patharray[1] != "index.html" %}    		
+		{% if chapter != patharray[1]  %}
 			  {% assign chapter = patharray[1] %} 
 
 			  {% assign foo = chapter | split: " " %}
