@@ -9,7 +9,7 @@ This mini Shibori making experience we have created is the first one we have don
 
 In the future we will create art and crafts experiences, collaborations between artists and crafts people, promote and sell these unique creations. Community members will participate in the workshops to learn techniques and create their own art crafts objects. We believe this is a fun, beautiful and productive way to bring our mind to a more holistic space and keep on learning making beautiful things with our own hands. - *Evgenia*
 
-Feedback from participants:
+##Feedback from participants:
 
 
 helping hoping learning sharing thinking wishing wondering boiling stirring smiling seeing laughing living dyeing - *James*
