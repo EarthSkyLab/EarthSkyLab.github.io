@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Shibori experience 
-tags: celebration, evgenia, victor, earthskylab, earth sky lab
+tags: celebration
+author: evgenia
 ---
 
 This mini Shibori making experience we have created is the first one we have done in London. It is continuing many Shibori experiences Victor has done whilst living in Japan. I have started dyeing cloth after he shared with me this fascinating and simple technique to making colorful cloth. We have decided to try Shibori as community experience, to enable everyone make their own first Shibori towel. Each participant would come out unique signatures, each would be a simple mono-colored pattern, using most basic technique of folding. Everyone would have a small functional object reminding them of this community experience. 
