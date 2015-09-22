@@ -60,6 +60,8 @@ In the future we will create art and crafts experiences, collaborations between 
 
 ##Feedback from participants:
 
+'helping hoping learning sharing thinking wishing wondering boiling stirring smiling seeing laughing living dyeing' - *James*
+
 <div class='pixels-photo'>
   <p>
     <img src='https://drscdn.500px.org/photo/112275695/m%3D900/c13cc7b4eb35c5bbb21a98f15946f654' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'>
@@ -76,10 +78,9 @@ In the future we will create art and crafts experiences, collaborations between 
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
-helping hoping learning sharing thinking wishing wondering boiling stirring smiling seeing laughing living dyeing - *James*
 
 
-Shibori is an act of dying fabric by binding it into close knots. The resulting pattern is formed out of interesting shapes of various shades of the chosen color.
+'Shibori is an act of dying fabric by binding it into close knots. The resulting pattern is formed out of interesting shapes of various shades of the chosen color.
 
 Me and my wife were invited to participate in the Shibori experience by Evgenia last winter. We gathered in the spatious house of Evgenia and Viktor, started communicating and using LAN cables and pegs to tie the fabric. Any communal work always binds not only towels but also people. Since the act of making something simple doesn't require any particular knowledge it becomes free, enjoyable and fun.
 
@@ -111,7 +112,8 @@ and waiting for the towels to be coloured we took them out of the pot to see the
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
-The towels are in use! Perhaps it's time to make similar T-shirt. - *Ivan and Ekaterina*
+The towels are in use! Perhaps it's time to make similar T-shirt.' - *Ivan and Ekaterina*
+
 
 
 <div class='pixels-photo'>
@@ -122,12 +124,6 @@ The towels are in use! Perhaps it's time to make similar T-shirt. - *Ivan and Ek
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
-<div class='pixels-photo'>
-  <p>
-    <img src='https://drscdn.500px.org/photo/112275799/m%3D900/43e5fe2e7105af805edffec0f9a40899' alt='Untitled by EarthSkyLab  on 500px.com'>
-  </p>
-  <a href='https://500px.com/photo/112275799/untitled-by-earthskylab-' alt='Untitled by EarthSkyLab  on 500px.com'></a>
-</div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 
