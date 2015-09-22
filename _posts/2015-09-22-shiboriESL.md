@@ -2,7 +2,7 @@
 layout: post
 title: Shibori experience 
 tags: celebration
-post-image: 2015-09-22-shibori.jpg
+post-image-url: https://drscdn.500px.org/photo/112275831/m%3D900/df902eec9e03fc140f156ced110abba9
 author: evgenia
 ---
 

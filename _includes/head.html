@@ -71,6 +71,8 @@
 {% assign path_one = page.path | split:"/" %}
 {% if page.post-image %}
 <meta property="og:image" content="{{site.url}}/public/images/{{page.post-image}}" />
+{% elsif page.post-image-url %}
+<meta property="og:image" content="{{page.post-image-url}}" />
 {% elsif path_one[0] == 'pages' && !page.noimgtitle %}
 <meta property="og:image" content="{{site.url}}{{ page.url | replace:".html",".jpg"}}" />
 {% elsif author %}
