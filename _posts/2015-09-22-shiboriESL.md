@@ -2,16 +2,9 @@
 layout: post
 title: Shibori experience 
 tags: celebration
+post-image: 2015-09-22-shibori.jpg
 author: evgenia
 ---
-
-<div class='pixels-photo'>
-  <p>
-    <img src='https://drscdn.500px.org/photo/112275831/m%3D900/df902eec9e03fc140f156ced110abba9' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'>
-  </p>
-  <a href='https://500px.com/photo/112275831/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
-</div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 This mini Shibori making experience we have created is the first one we have done in London. It is continuing many Shibori experiences Victor has done whilst living in Japan. I have started dyeing cloth after he shared with me this fascinating and simple technique to making colorful cloth. We have decided to try Shibori as community experience, to enable everyone make their own first Shibori towel. Each participant would come out unique signatures, each would be a simple mono-colored pattern, using most basic technique of folding. Everyone would have a small functional object reminding them of this community experience. 
 
@@ -21,7 +14,6 @@ This mini Shibori making experience we have created is the first one we have don
   </p>
   <a href='https://500px.com/photo/112275705/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 
 <div class='pixels-photo'>
@@ -30,7 +22,6 @@ This mini Shibori making experience we have created is the first one we have don
   </p>
   <a href='https://500px.com/photo/112275697/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 
 <div class='pixels-photo'>
@@ -39,7 +30,6 @@ This mini Shibori making experience we have created is the first one we have don
   </p>
   <a href='https://500px.com/photo/112275797/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 
 <div class='pixels-photo'>
@@ -48,7 +38,6 @@ This mini Shibori making experience we have created is the first one we have don
   </p>
   <a href='https://500px.com/photo/112275703/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 
 <div class='pixels-photo'>
@@ -57,7 +46,6 @@ This mini Shibori making experience we have created is the first one we have don
   </p>
   <a href='https://500px.com/photo/112275707/untitled-by-earthskylab-' alt='Untitled by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 
 In the future we will create art and crafts experiences, collaborations between artists and crafts people, promote and sell these unique creations. Community members will participate in the workshops to learn techniques and create their own art crafts objects. We believe this is a fun, beautiful and productive way to bring our mind to a more holistic space and keep on learning making beautiful things with our own hands. - *Evgenia*
@@ -72,7 +60,6 @@ In the future we will create art and crafts experiences, collaborations between 
   </p>
   <a href='https://500px.com/photo/112275695/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 
 <div class='pixels-photo'>
@@ -81,7 +68,6 @@ In the future we will create art and crafts experiences, collaborations between 
   </p>
   <a href='https://500px.com/photo/112275833/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 
 
@@ -96,7 +82,6 @@ After binding our own towels
   </p>
   <a href='https://500px.com/photo/112275699/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 <div class='pixels-photo'>
   <p>
@@ -104,7 +89,6 @@ After binding our own towels
   </p>
   <a href='https://500px.com/photo/112275701/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 
 and waiting for the towels to be coloured we took them out of the pot to see these nice irregular pattern
@@ -115,7 +99,6 @@ and waiting for the towels to be coloured we took them out of the pot to see the
   </p>
   <a href='https://500px.com/photo/112275827/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 The towels are in use! Perhaps it's time to make similar T-shirt.' - *Ivan and Ekaterina*
 
@@ -128,7 +111,6 @@ The towels are in use! Perhaps it's time to make similar T-shirt.' - *Ivan and E
   </p>
   <a href='https://500px.com/photo/112275843/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
-<script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
