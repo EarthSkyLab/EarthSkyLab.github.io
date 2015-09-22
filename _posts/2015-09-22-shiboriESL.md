@@ -5,6 +5,14 @@ tags: celebration
 author: evgenia
 ---
 
+<div class='pixels-photo'>
+  <p>
+    <img src='https://drscdn.500px.org/photo/112275831/m%3D900/df902eec9e03fc140f156ced110abba9' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'>
+  </p>
+  <a href='https://500px.com/photo/112275831/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
+</div>
+<script type='text/javascript' src='https://500px.com/embed.js'></script>
+
 This mini Shibori making experience we have created is the first one we have done in London. It is continuing many Shibori experiences Victor has done whilst living in Japan. I have started dyeing cloth after he shared with me this fascinating and simple technique to making colorful cloth. We have decided to try Shibori as community experience, to enable everyone make their own first Shibori towel. Each participant would come out unique signatures, each would be a simple mono-colored pattern, using most basic technique of folding. Everyone would have a small functional object reminding them of this community experience. 
 
 In the future we will create art and crafts experiences, collaborations between artists and crafts people, promote and sell these unique creations. Community members will participate in the workshops to learn techniques and create their own art crafts objects. We believe this is a fun, beautiful and productive way to bring our mind to a more holistic space and keep on learning making beautiful things with our own hands. - *Evgenia*
