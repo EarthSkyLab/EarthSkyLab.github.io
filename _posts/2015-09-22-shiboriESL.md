@@ -23,6 +23,7 @@ This mini Shibori making experience we have created is the first one we have don
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
+
 <div class='pixels-photo'>
   <p>
     <img src='https://drscdn.500px.org/photo/112275697/m%3D900/cf7bd34526f284ff663a95f5521907bf' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'>
@@ -30,6 +31,7 @@ This mini Shibori making experience we have created is the first one we have don
   <a href='https://500px.com/photo/112275697/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
+
 
 <div class='pixels-photo'>
   <p>
@@ -39,6 +41,7 @@ This mini Shibori making experience we have created is the first one we have don
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
+
 <div class='pixels-photo'>
   <p>
     <img src='https://drscdn.500px.org/photo/112275703/m%3D900/252e615c5a13733a89fa0b1567ead933' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'>
@@ -46,6 +49,7 @@ This mini Shibori making experience we have created is the first one we have don
   <a href='https://500px.com/photo/112275703/shibori-earthskylab-by-earthskylab-' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'></a>
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
+
 
 <div class='pixels-photo'>
   <p>
@@ -70,6 +74,7 @@ In the future we will create art and crafts experiences, collaborations between 
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
+
 <div class='pixels-photo'>
   <p>
     <img src='https://drscdn.500px.org/photo/112275833/m%3D900/830c763c8052ce63d91531f6c06ce4ce' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'>
@@ -93,6 +98,7 @@ After binding our own towels
 </div>
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
+
 <div class='pixels-photo'>
   <p>
     <img src='https://drscdn.500px.org/photo/112275701/m%3D900/c3e2b8edb0c44ad52cd5030643d66bc6' alt='Shibori EarthSkyLab by EarthSkyLab  on 500px.com'>
@@ -113,6 +119,7 @@ and waiting for the towels to be coloured we took them out of the pot to see the
 <script type='text/javascript' src='https://500px.com/embed.js'></script>
 
 The towels are in use! Perhaps it's time to make similar T-shirt.' - *Ivan and Ekaterina*
+
 
 
 
