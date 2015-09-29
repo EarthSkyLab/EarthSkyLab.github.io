@@ -1,6 +1,7 @@
 ---
 layout: basic-page
 ---
+	{% assign post = page %} {% comment %} for post-image and other function calls... {% endcomment %}
 	{% for an_author in site.authors %}
 		{% assign author_id = an_author.path | split:"/" | last | split:"." | first %}
 		{% if author_id == page.author %}
@@ -14,14 +15,7 @@ layout: basic-page
 		            
 			<div class="post">
 			  <a href="/authors/{{page.author}}.html">
-				{% if page.noimgtitle %}
-				{% elsif page.post-image %}
-		          <img src = "/public/images/{{page.post-image}}" alt="{{ page.title }}"/>
-				{% elsif page.post-image-url %}
-		          <img src = "{{page.post-image-url}}" alt="{{ page.title }}"/>
-		        {% else %}
-				  <img src="/authors/{{page.author}}.jpg"  alt="{{ page.title }}"/>
-		        {% endif %}
+			  	<img src = "{% include post-image.html post=page %}" alt="{{ page.title }}"/>
 			  </a>
 			  <div class="post-info cf">
 				  <h1 class="post-title">{{page.title}}</h1>

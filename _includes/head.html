@@ -54,6 +54,7 @@
 
 <!-- START - Facebook Open Graph Meta Tags-->
 <meta property="og:locale" content="en_GB" />
+<meta property="og:url" content="{{ site.url }}{{ page.url}}" />
 <meta property="og:site_name" content="EarthSkyLab.vision" />
 <meta property="og:type" content="article"/>
 {% for an_author in site.authors %}
@@ -70,9 +71,7 @@
 
 {% assign path_one = page.path | split:"/" %}
 {% if page.post-image %}
-<meta property="og:image" content="{{site.url}}/public/images/{{page.post-image}}" />
-{% elsif page.post-image-url %}
-<meta property="og:image" content="{{page.post-image-url}}" />
+<meta property="og:image" content="{% include post-image.html post=page %}" />
 {% elsif path_one[0] == 'pages' && !page.noimgtitle %}
 <meta property="og:image" content="{{site.url}}{{ page.url | replace:".html",".jpg"}}" />
 {% elsif author %}

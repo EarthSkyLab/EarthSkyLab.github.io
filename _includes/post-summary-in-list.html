@@ -6,7 +6,11 @@
         <div class="post-author">by {{ author.title }}</div>
         {%endif%}
         </div>
-        <div class="content" style="margin: 10px 10px 0px 20px;">{{ post.content | markdownify | strip_html | strip_newlines| truncatewords: 50 }}</div>                                
+        <div class="content cf" style="margin: 10px 10px 0px 20px;">
+	        {% if post.post-image %}
+	        <img src = "{% include post-image.html post=post %}" style="float:left; padding: 3px; padding-right: 10px; max-width:230px; max-height:150px; " alt="{{ post.title }}"/>
+	        {% endif %}
+	        {{ post.content | markdownify | strip_html | strip_newlines| truncatewords: 50 }}</div>                                
       </a>
 	  {% include post-tag-list.html %}
 </div>

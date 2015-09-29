@@ -1,12 +1,12 @@
-      <div class="esl-blog-tags">
-      	{% for tag in post.tags %}
-		    	{% for page in site.pages %}
-		    		{%if page.tag == tag %}
-		    			{% assign patharray = page.path | split:"/" %}
+<div class="esl-blog-tags">
+	{% for tag in post.tags %}
+    	{% for page in site.pages %}
+    		{%if page.tag == tag %}
+    			{% assign patharray = page.path | split:"/" %}
 
-		    			<span class="esl-tag"><a href="{{ page.url }}"><img width="25px" src="/pages/{{patharray[1]}}/icon.png" alt="{{page.title}}"> {{page.title}}</a>&nbsp;</span>
-						{% break %}
-					{%endif%}
-				{% endfor %}
+    			<span class="esl-tag"><a href="{{ page.url }}"><img width="25px" src="/pages/{{patharray[1]}}/icon.png" alt="{{page.title}}"> {{page.title}}</a>&nbsp;</span>
+				{% break %}
+			{%endif%}
 		{% endfor %}
-      </div>
+	{% endfor %}
+</div>

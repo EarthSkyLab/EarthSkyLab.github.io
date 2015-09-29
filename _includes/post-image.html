@@ -1,0 +1,7 @@
+{% comment %} 
+Returns the URL for the image for the post.
+
+parameters:  "post" the post for which to return the image.
+
+It's ugly like this so no white-space goes out of this call and it's output can be used in <img src=> etc.
+{% endcomment %}{% assign post = include.post %}{% if post.post-image %}{% assign foo = post.post-image | truncate: 4, ''  %}{% if 'http' == foo %}{{include.post.post-image}}{%else%}{{ site.url}}/public/images/{{post.post-image}}{% endif%}{% elsif post.author %}/authors/{{post.author}}.jpg{% endif %}
