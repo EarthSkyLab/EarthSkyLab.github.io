@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+<body class="esl-index"> 
+
+<div class="esl-top-page">
+	<a href="/site-map.html">
+		<img class="logo" src="/public/logo-large.jpg">
+		{% include vision-statement.html %}
+	</a>
+<div class="esl-vision">	
+{{content}}
+</div>
+
+<a href="/site-map.html">
+	<div class="esl-vision-statement">
+		<i>Time is Now!</i>
+	</div>
+</a>
+	<div class="esl-site-map">
+
+	{% include site-map.html  noimages="1" %}
+	</div>
+</div>
+	{% include analytics.html %}
+<body> 
+
+</html>

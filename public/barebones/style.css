@@ -143,10 +143,13 @@ body.home  .mobile-nav .curriculum{margin-top: 0px;}
 body.home .home-latests , body.home .latests{ text-align: center;display: block;}
 .home-latests h2{ font-size:30px; line-height: 50px; color: #993333; padding:24px 0;font-weight: 100;}
 /* newsletter */
-.newsletter {border-top: 1px solid #cccccc;}
+.newsletter {
+	border-top: 1px solid #cccccc;
+	padding-bottom: 38px;
+	}
 .newsletter .wrapper {max-width: 700px; text-align: center; padding-top: 71px; padding-bottom: 35px;}
 .single .newsletter .wrapper {position: relative;right: -130px;}
-.newsletter form {padding-bottom: 38px;}
+.newsletter form {}
 .newsletter p {
 	font-size: 28px; line-height: 40px; color: #231f20; margin-bottom: 35px;
 	font-style: italic;
@@ -854,29 +857,6 @@ h3.esl-site-map {
 	float: left;
 	max-width: 45%;
 }
-
-.esl-index .logo  {
-    display: block;
-    position: absolute;
-    top: 0px;
-    bottom: 8em;
-    width: 100%;
-    background-image: url(/public/logo-large.jpg);
-    
-      /* Image is centered vertically and horizontally at all times */
-  background-position: top center;
-  
-  /* Image doesn't repeat */
-  background-repeat: no-repeat;
-  
-  /* Makes the image fixed in the viewport so that it doesn't move when 
-     the content height is greater than the image height */
-  background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based on its container's size */
-  background-size:contain;
-
-}
  
 .type-post p {
 	text-indent: 1em;
@@ -896,13 +876,35 @@ h3.esl-site-map {
 	font-size: 20px;
 	text-align: center;
 }
+.esl-vision {
+	
+}
 
+.esl-index .logo  {
+    width: 100%;
+}
+
+.esl-top-page {
+	max-width: 960px;
+	margin: 0 auto 0 auto;
+}
+.esl-top-page .newsletter {
+	border: none;
+	padding-bottom: 0;
+}
+.esl-top-page .newsletter .wrapper {
+	padding: 0;
+}
+
+.esl-index h1 {
+	font-size: 40px;
+    margin: 30px 0 10px 0;
+    line-height: 45px;
+}
 .esl-index .esl-vision-statement {
 	text-align: center;
-
-	position: absolute;
-	bottom: 0px;
-	margin: 0 auto 1em auto;
+	left: 0px;
+	right: 0px;
 	width: 100%;
 	padding: 2% 5%;
 	background-color: white;
@@ -910,6 +912,19 @@ h3.esl-site-map {
 	line-height: 35px;
 }
 
+.esl-index .esl-vision {
+	text-align: justify;
+
+	margin: 0 auto 9 auto;
+	width: 100%;
+	padding: 0 5%;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+.esl-index p {
+	margin: 1em 0;
+}
 .esl-person-link {
 	height: 3em;
 }
