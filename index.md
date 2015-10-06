@@ -20,12 +20,11 @@ Today our core team is searching for land and creating a detailed action plan to
 Do you dream of a creative life surrounded by nature and friends in a beautiful village? 
 
 <center>
-<b>Join us on [Facebook](https://www.facebook.com/EarthSkyLab)
+Join us on [Facebook](https://www.facebook.com/EarthSkyLab)
 
 or
 {% include newsletter.html %}
-together we will make this dream a reality.
-</b>
+Together we will make this dream a reality.
 </center>
 
 We invite everyone interested in new models of community living for the 21st century to help us. Creative entrepreneurs, philosophers, craftsmen, architects, thinkers, artists, adventurers, free-to-learners, collaborators. Those who believe a better way of life is possible through community. Those who want to leave behind the pressures of the modern big-city lifestyle. Those of you who already made an escape from the city and but now want a community.  
