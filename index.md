@@ -20,7 +20,7 @@ Today our core team is searching for land and creating a detailed action plan to
 Do you dream of a creative life surrounded by nature and friends in a beautiful village? 
 
 <center>
-Join us on [Facebook](https://www.facebook.com/EarthSkyLab)
+[Join us on Facebook](https://www.facebook.com/EarthSkyLab)
 
 or
 {% include newsletter.html %}
