@@ -27,6 +27,7 @@ Let us know if you are interested in participating in developing the village bui
 ## Invitation to Participate
 
 EarthSkyLab is slowly transforming into an organisation and as this happens there will be many more opportunities to get involved, today we invite you to:
+
 * Comment on [the vision document & help us draft next revision](https://docs.google.com/document/d/1tAfljuWUinLb99IwT8NxBvpntWv6LnkYSiyal9Bqd20/edit)
 * Join EarthSkyLab Camp 2016 and participate in its co-creation - send an email to timeisnow@earthskylab.vision or message us on facebook
 * Spread the word of EarthSkyLab by liking our [FB page, sharing with friends, and joining the conversation](https://www.facebook.com/EarthSkyLab). 
@@ -34,6 +35,7 @@ EarthSkyLab is slowly transforming into an organisation and as this happens ther
 ## Ideas for 2016
 
 We have many plans for 2016 and hopes to introduce many more people to the EarthSkyLab idea:
+
 * EarthSkyLab Camp 2016
 * Regular EarthSkyLab online calls every 1-2 months.
 * Vision v0.3 - do a revision of the vision document
