@@ -2,7 +2,8 @@
 layout: post
 title: Newsletter #1 - Dec 2015
 tags: 
-author: Evgenia
+author: evgenia
+post-image: ../logo-large.jpg
 ---
 
 Friends! Amigos! Druzya! 
