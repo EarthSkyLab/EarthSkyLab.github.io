@@ -8,11 +8,11 @@ markdown:         redcarpet
 title:            EarthSkyLab
 tagline:          'An Open Model for A Deeply Connected Life-long Free to Learn Community. - Time is Now!'
 description:      'An Open Model for A Deeply Connected Life-long Free to Learn Community. - Time is Now!'
-url:              http://earthskylab.vision
+url:              http://www.earthskylab.vision
 facebook: 	https://www.facebook.com/EarthSkyLab
 author:
   name:           'EarthSkyLab'
-  url:            http://earthskylab.vision/
+  url:            http://www.earthskylab.vision/
 
 paginate:         5
 
